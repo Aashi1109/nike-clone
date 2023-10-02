@@ -11,7 +11,7 @@ const Button = ({
   textColor?: string;
   backgroundColor?: string;
   borderColor?: string;
-  fullWidth: boolean;
+  fullWidth?: boolean;
 }) => {
   return (
     <button
